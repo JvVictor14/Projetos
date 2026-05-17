@@ -72,61 +72,60 @@
     <script>
       const quiz = [
         {
-          pergunta: "💪Toguro: (x+1)² = x² + 2x + 1\nEle tá:",
+          pergunta: "💪Toguro disse que: (x+1)² = x² + 2x + 1\nEle tá:",
           opcoes: ["Fraco", "Certo 😎", "Só metendo o shape", "Confundindo com treino de perna"],
           resposta: 1,
         },
         {
-          pergunta: "🐶Cachorro chupetão: (a+b)³ = a³ + 3a²b + 3ab² + b³\ncorreto?",
+          pergunta: "🐶Cachorro chupetão latiu: (a+b)2=a^2+2ab+b^2\n ele está correto?",
           opcoes: ["Acertou tudo", "Errou o último termo", "Só chutou", "Usou pacto matemático"],
           resposta: 0,
         },
         {
-          pergunta: "📚 (a+b)⁴: de onde veio o 6?",
-          opcoes: ["Aleatório", "Combinação (4 escolhe 2)", "Multiplicação", "Energia do universo"],
+          pergunta: "Paulo Henrique afirmou que (2+4)^2= 2^2+16+4^2. Da onde veio o 16?",
+          opcoes: ["de 4^2 .2", "da multiplicação de 2.2.4(2AB)", "iluminação divina", "Energia do universo"],
           resposta: 1,
         },
         {
-          pergunta: "💀 Skill issue: (a+b)² = a² + b²?",
+          pergunta: "Seu Madruga estudou e chegou a conclusão que: (a+b)² = a² + b². Ele tá certo?",
           opcoes: ["Esqueceu 2ab", "Tá certo", "Fonte errada", "Feeling"],
           resposta: 0,
         },
         {
-          pergunta: "😎 Sigma do Pascal: os coeficientes de (a+b)⁵ são 1,5,10,10,5,1. → qual o 3º termo?",
-          opcoes: ["10a³b²", "5a⁴b", "10a²b³", "a⁵"],
+          pergunta: "Bob Covarde está confuso e quer saber como é a expressão simplificade de: (6+7)^2",
+          opcoes: ["6^2+2.6.7+7^2", "6^2+2.6+7", "6.6+6.7+6", "covardia máxima"],
           resposta: 0,
         },
         {
-          pergunta: "🗿🍷: alguém disse que (a+b)² = a² + b²\nvocê diz:",
-          opcoes: ["não tankei, faltou o 2ab", "tá certo", "depende", "deixa baixo"],
+          pergunta: "alguém disse que (a+b)² = a² + b²\nvocê diz:",
+          opcoes: ["não tankei, faltou o 2ab", "tá certo", "muita aura 🗿🍷", "deixa baixo"],
           resposta: 0,
         },
         {
-          pergunta: "😭 “errei fui mlk”: coeficiente de a²b² em (a+b)⁴ é:",
-          opcoes: ["4", "6", "8", "2"],
+          pergunta: "coeficiente de ab em (a+b)^2 é:",
+          opcoes: ["3🧐", "2 🤨", "4", "24"],
           resposta: 1,
         },
 
-        // NOVAS ↓
 
         {
-          pergunta: "💻 “Hello World” → “Hello Trauma” 💀\nEm (a+b)³, qual termo vem logo após a³?",
-          opcoes: ["3a²b", "ab²", "b³", "2ab"],
+          pergunta: "“Hello World”\nEm (4+6)^2, qual termo vem logo após 4^2?",
+          opcoes: ["48", "6^2", "4^2", "6+4"],
           resposta: 0,
         },
         {
-          pergunta: "💻 um programador tentou expandir: (x+y)⁴ e fez: x⁴ + 4x + y⁴\nQual foi o erro?",
+          pergunta: "Um programador tentou expandir: (x+y)2 e fez: x^2 + 4x + y^2\nQual foi o erro?",
           opcoes: [
-            "Esqueceu os termos do meio 💀",
+            "Esqueceu os termos do meio 😭",
             "Tá certo",
             "Usou letra demais",
-            "Era pra usar JS",
+            "Era pra usar JAVA",
           ],
           resposta: 0,
         },
         {
-          pergunta: " Usando o Binômio de Newton: qual o coeficiente de x²y³ em (x+y)⁵?",
-          opcoes: ["10 ", "5", "20", "1"],
+          pergunta: "Usando o Binômio de Newton: qual o coeficiente de XY em (x+y)^2?",
+          opcoes: ["2 ", "5", "9", "12"],
           resposta: 0,
         },
       ];
@@ -180,10 +179,10 @@
 
         let msg =
           acertos <= 3
-            ? "Virou meme 💀"
+            ? "você não tem aura. 💀"
             : acertos <= 7
             ? "Tá forte 😎"
-            : "LENDÁRIO 💪🔥";
+            : "Aura máxima 💪🔥";
 
         res.innerHTML = `
           <h2>Resultado</h2>
